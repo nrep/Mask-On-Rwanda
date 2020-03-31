@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="rw">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ data['title'] }} - {{ data['sub_title'] }}</title>
+        <link rel="stylesheet" href="static/css/style.css">
+        <script src="static/js/modernizr.custom.js"></script>
+    </head>
+    <body class="ux">
+        <header class="clearfix">
+            <nav class="ux nav">
+                <div class="ux left-nav">
+                    <h1 class="ux site-title">{{ data['site_name'] }}<span>{{ data['sub_title'] }}</span></h1>
+                </div>
+                <div class="ux center-nav">
+                    <div class="ux logo">
+                        <img style="height: 40px;" src="static/logo.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="ux right-nav">
+
+                </div>
+            </nav>
+        </header>
+        <main></main>
+        <footer></footer>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="static/js/jquery.fittext.js"></script>
+		<script src="static/js/boxgrid.js"></script>
+		<script>
+			$(function() {
+
+				Boxgrid.init();
+				
+
+			});
+		</script>
+    </body>
+</html>
